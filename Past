@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Past</title>
+    <link rel="stylesheet" type="text/css" href="websystems.css">
+
+</head>
+<body>         
+ <div class="header">
+ <div id= "logo"> <img src="images/logo.png" alt="logo" class="center"></div>
+
+
+ <div class="topnav">
+<a class="active" href= "index.html" >Home</a>
+<a  href= "past.html">Past</a>
+<a  href= "future.html">Future</a>
+<a  href= "comments.html">Comments</a>
+ </div>
+</div>
+ 
+&nbsp;&nbsp; 
+&nbsp;&nbsp; 
+
+<div class="splitscreen">
+<div class="left">
+ &nbsp;&nbsp;  
+
+<h2>about me</h2>
+<img src= "images/profile.jpg" alt= "profile" class="center">
+<br>
+
+
+<p class="center">
+<span class="bold"></span>
+<br>
+My name is Tiara, I am a university of technology student that aspires to travel the world
+and to be able to get good marks in the process :)  
+</p>
+</div>
+
+<div class="right">
+<br/> 
+<div class="top"><h1 class="center"> lorem ipsum dolor sit amet</h1></div>
+<img class="center" src="images/tiarasmap.jpg" alt="map of visited places"> <!--- image from http://hivf.org/eng/content.action?cmsid=105050600000-->
+<h2 class="center"> In the map above I have plotted the places that I have ventured to with my family.
+</h2>
+ <p class="center">On the map with the <span id="red">red dot </span> it represents where I am from, Sydney, my home. The
+<span id="blue">blue dots</span> represent the places that I have been to: HongKong, Guang Zhou, Korea, Malaysia. Within Australia I have been to
+Melbourne, Gold Coast.</p>
+<br/>
+<br/>
+<br/>
+<h1 class="center"> Korea 2018</h1>
+<img class="center" src="images/polaroidkorea1.jpg" alt="Polaroids taken in Seoul 1">
+<br>
+<br>
+<img class="center" src="images/polaroidkorea2.jpg" alt="Polaroids taken in Seoul 2">
+<h2 class="center"> Here are some polaroids taken from my favourite spots in Seoul!</h2>
+<p class="center"> Mum and I went on holiday to Seoul during the winter in which we were definitely unprepared for 
+ (clothing wise) but I saw snow for the first time which was very exciting. I loved the food and the lively 
+ atmosphere which was a change from Sydney.
+</p>
+<br>
+<br>
+<button onclick="location.href= '#top'">take me to the top ♡</button>
+<br>
+<br>
+</div>
+</div>
+<!--All code is referenced and taken from https://www.w3schools.com/-->
+</body> 
+</html>
