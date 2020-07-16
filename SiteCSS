@@ -1,0 +1,138 @@
+/*button css*/
+button {font-size: 15px; border-radius: 6px; background-color: rgb(221, 160, 51);
+   width: 200px; height: 40px;margin: auto; display: block; font-family: 'consola'}
+   .button {font-size: 15px; border-radius: 6px; background-color: rgb(221, 160, 51);
+    width: 200px; height: 40px;margin: auto; display: block; font-family: 'consola'; text-align: center}
+  
+/*dark blue outline for keyboard accessibility  referenced from https://webdesign.tutsplus.com/articles/keyboard-accessibility-tips-using-html-and-css--cms-31966*/ 
+:focus {
+outline: 1px solid darkblue;   
+}
+
+
+/* navigation css */
+
+.topnav {
+  background-color:  #286dab;
+  overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  position: sticky;
+  width: 98.8%}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;}
+
+.topnav a.active {
+background-color: rgb(6, 81, 37);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;}
+
+  /* center class css*/
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%}
+
+/* header - logo made from canvas css*/
+#logo {
+  max-width:500px;
+  max-height:300px;
+  margin-left: auto;
+  margin-right: auto; } 
+
+.header {
+top: 0;
+    background: white;
+    position: fixed;
+    width: 100%;
+  margin: 0px auto}
+  
+
+
+  /* split page layout css */
+.splitscreen {
+  display:flex; 
+  margin-top: 160px;
+  float: left;
+  flex-wrap: wrap
+
+}
+.splitscreen .left {
+  flex: 27%;
+  background-color: rgb(221, 160, 51);
+  float: left
+}
+.splitscreen .right {
+  flex: 73%;
+  background-color: rgb(224, 216, 195);
+  float: left
+  }
+
+
+  /* headings css and text */
+h1{font-size: 17px;
+background-color: #31708e;
+color:white;
+border-radius: 55px; 
+text-align: center;
+padding: 10px 10px 10px 10px;} 
+
+h2 {font-size: 19px; text-align: center;}
+
+h2.center {font-size: 16px; color: rgb(6, 81, 37) }
+
+p.center {background-color: rgba(128,128,128,0.3);font-size: 13px; font-family: 'consola'; 
+  border-radius: 25px; text-align: left; padding: 25px 25px 25px 25px; line-height: 1.5} /* paragraph css */
+
+/*used with span tag*/
+.bold {font-weight: bold}
+#red {color: red} 
+#blue {color: #286dab}
+#timesnewroman {font-family: 'Times New Roman', Times, serif}
+
+/* image css */
+img.center { max-width: 500px; max-height: 500px}
+
+
+
+/* custom font css */
+@font-face {font-family: 'consola'; src: url(font/CONSOLA.TTF), url(font/CONSOLA.eot); }
+
+/* list styling */
+ul.center { border-radius: 25px; text-align: left; background-color: rgba(128,128,128,0.3);  padding: 25px 25px 25px 25px; font-family: 'consola'}
+li {margin-bottom: 5px; font-size: 12px; font-family: 'consola'; }
+ol {font-family: 'consolas'; position: fixed}
+
+/* COMMENTS PAGE CSS*/
+.comments {margin-top: 160px; background-color: rgb(224, 216, 195) } /*comments page design css */
+.speechbubble {max-width: 200px; max-height: 100px; float: right;} /*speech bubble image css*/
+#htmlstructure {max-height: 1000px; max-width: 500px; margin: auto}/*html structure diagram css*/
+
+
+/* table design css */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   background-color: white; font-family: 'consola'; font-size: 13px; text-align: left
+}
+th, td {padding: 5px}
+
+
+
+/* CHANGE THE LAYOUT ON PHONE SCREENS*/ /*  code from http://www.2createawebsite.com/design/mobile-website-design.html */
+@media screen and (max-width:480px) {
+.splitscreen .left{ display: none;} ol {display: none} }   
+  
+/* all other other code if not referenced with a website is from https://www.w3schools.com/, including css style attributes etc*/
